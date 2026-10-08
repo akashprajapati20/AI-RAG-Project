@@ -1,0 +1,15 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# Files uploaded through the API (Part 5)
+data/uploads/
+
+# Frontend (Part 6)
+node_modules/
+dist/
+
+# Eval outputs (Part 7)
+backend/eval/results/

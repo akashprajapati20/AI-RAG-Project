@@ -1,0 +1,30 @@
+# --- Config (Part 1) ---
+pydantic-settings>=2.6
+
+# --- Database: Postgres + pgvector (Part 1) ---
+psycopg[binary,pool]>=3.2
+pgvector>=0.3
+numpy>=2.0
+
+# --- Gemini: embeddings + chat (Parts 1-4) ---
+google-genai>=1.0
+
+# --- Sample corpus generation ---
+fpdf2>=2.8
+markdown>=3.7
+
+# --- Ingestion (Part 2) ---
+pypdf>=5.0
+
+# --- Agent (Part 4) ---
+langgraph>=0.3
+langchain-google-genai>=2.1
+langgraph-checkpoint-postgres>=3.0  # conversation memory (Part 5)
+
+# --- Tests ---
+pytest>=8.0
+
+# --- API (Part 5) ---
+fastapi>=0.141  # built-in Server-Sent Events (fastapi.sse)
+uvicorn[standard]>=0.32
+python-multipart>=0.0.18

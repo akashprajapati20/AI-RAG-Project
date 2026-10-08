@@ -1,0 +1,32 @@
+PRODUCT & ROADMAP SYNC — meeting notes
+Date: Thursday 10 September 2026, 14:00-15:00 CET (Rotterdam, room "Maas" + video)
+Attendees: Tomasz Grabowski (chair), Adaeze Okafor, Daniel Achterberg, Mei Tanaka, Sofia Brandt, Rik de Wit (Product)
+Notes: Rik de Wit
+
+1) Tally 4.4 scope and date
+- Release 4.4 target date: 20 October 2026.
+- Headline feature: multi-warehouse stock transfers (move stock between sites and keep history). Rik demoed the prototype, feedback positive.
+- CSV export timeout (known issue since 4.3.0) WILL be fixed in 4.4 -> exports up to 25 months in the background, emailed as a download link.
+- Mei: forecast enrichment moved out of alert path is done in staging, ships with 4.4. This closes the last open action item from INC-2026-031.
+- Decision: API v1 shutdown stays 31 Dec 2026, no extension. Daniel says ~40 customers still call v1; Sofia's team will email them this month + again in November.
+
+2) Hardware roadmap
+- Tally Hub TH-5 announced for Q1 2027: Wi-Fi 6 uplink, up to 400 tags per hub, same PoE+ power.
+- TH-4 stays on sale until at least end of 2027. Firmware support for TH-4 guaranteed until 2030.
+- Tag TT-300 (longer battery, ~4 years) is still in research, NO date to be communicated to customers.
+
+3) Pricing (Daniel)
+- Starter price goes from EUR 149 to EUR 169 per site per month, only for NEW customers signing from 1 January 2027. Existing Starter customers keep EUR 149 until at least their 2027 renewal.
+- Growth and Enterprise prices unchanged for 2027.
+- Not yet public - do not share with customers before the official announcement on 1 November 2026.
+
+4) Support load
+- Sofia: tickets up 18% QoQ, mostly calibration questions after tag moves. Proposal: in-app warning when a tag's weight jumps >40% in under a minute (likely moved). Agreed, goes into 4.5 backlog.
+
+Action items
+- Rik: publish 4.4 release plan on the wiki by 17 Sept.
+- Sofia: second API v1 deprecation email by 15 Nov.
+- Daniel: draft Starter price-change announcement for 1 Nov.
+- Mei: confirm TH-5 forecast compatibility (400 tags/hub) by end of Oct.
+
+Next sync: 8 October 2026.
